@@ -6,8 +6,16 @@
 
 // console.log(process.argv)
 
-let arguments=process.argv;
+// let arguments=process.argv;
 
-for(let i=2;i<arguments.length;i++){
-    console.log("Hello "+arguments[i]);
-}
+// for(let i=2;i<arguments.length;i++){
+//     console.log("Hello "+arguments[i]);
+// }
+
+
+const math=require("./math");
+
+console.log(math.sum(3,5));
+console.log(math.mul(5,5));
+console.log(math.g);
+console.log(math.pi);
