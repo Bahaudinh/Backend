@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "figlet": "^1.11.4"
+    "figlet": "^1.11.4",
+    "type": "module"
   }
 }
