@@ -1,7 +1,7 @@
-exports.sum=(a,b)=>a+b;
-exports.mul=(a,b)=>a*b;
-exports.g=9.8;
-exports.pi=3.14;
+// exports.sum=(a,b)=>a+b;
+// exports.mul=(a,b)=>a*b;
+// exports.g=9.8;
+// exports.pi=3.14;
 
 // module.exports={
 //     sum:sum,
@@ -9,3 +9,5 @@ exports.pi=3.14;
 //     g:g,
 //     pi:pi
 // };
+
+
