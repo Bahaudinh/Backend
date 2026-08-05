@@ -21,10 +21,16 @@
 // console.log(math.pi);
 
 
-const fruits=require("./Fruits");
+// const fruits=require("./Fruits");
 
-for(let i=0;i<fruits.length;i++){
-    console.log("Item "+(i+1));
-    console.log("Name : "+fruits[i].name);
-    console.log("Color : "+fruits[i].Color);
-}
+// for(let i=0;i<fruits.length;i++){
+//     console.log("Item "+(i+1));
+//     console.log("Name : "+fruits[i].name);
+//     console.log("Color : "+fruits[i].Color);
+// }
+
+
+import {sum,g} from "./math.js";
+
+console.log(sum(13,15));
+console.log(g);
