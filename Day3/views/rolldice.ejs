@@ -7,5 +7,10 @@
 </head>
 <body>
     <h1>Dice value is :- <%= diceValue %></h1>
+    <% if(diceValue==6) {%>
+        <p>Congratulations!</p>
+        <button><a href="/rolldice">Roll Again</a></button>
+    <% } %>
 </body>
 </html>
+
